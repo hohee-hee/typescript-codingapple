@@ -110,3 +110,13 @@ type FuncType = (a: string) => number;
 ## 📝 ts에서 class 문법 사용하기
 
 > 파일 : types/class.ts
+
+## 📝 ts에서 class 문법 사용하기
+
+> 파일 : types/interface.ts
+
+** object 자료형은 type지정을 interface로 할 수 있다**
+
+- interface 장점
+  - extends로 복사 가능
+  - 중복 선언이 가능하여 customizing이 가능 (그래서 외부 라이브러리에서 많이 사용)
