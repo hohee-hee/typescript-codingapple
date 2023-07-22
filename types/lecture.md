@@ -111,7 +111,7 @@ type FuncType = (a: string) => number;
 
 > 파일 : types/class.ts
 
-## 📝 ts에서 class 문법 사용하기
+## 📝 ts에서 interface 문법 사용하기
 
 > 파일 : types/interface.ts
 
@@ -120,3 +120,10 @@ type FuncType = (a: string) => number;
 - interface 장점
   - extends로 복사 가능
   - 중복 선언이 가능하여 customizing이 가능 (그래서 외부 라이브러리에서 많이 사용)
+
+## 📝 rest parameter에서 type 지정하기
+
+> 파일 : types/rest.ts
+> 파일 : types/destructuring.ts
+
+- rest parameter 사용 시 type은 array로 지정하기
