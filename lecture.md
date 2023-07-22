@@ -42,11 +42,11 @@
 
 ## 📝 TS 기본 타입 정리
 
-> 파일 : primitive-type.ts
+> 파일 : types/primitive-type.ts
 
 ## 📝 타입을 미리 정하기 애매할 때
 
-> 파일 : ambiguous.ts
+> 파일 : types/ambiguous.ts
 
 1. union type
 2. any
@@ -54,22 +54,22 @@
 
 ## 📝 함수에 타입 지정하기
 
-> 파일 : function-type.ts
+> 파일 : types/function-type.ts
 
 ## 📝 Narrowing, Assertion
 
-> 파일 : narrowing.ts
-> 파일 : assertion.ts
+> 파일 : define-type/narrowing.ts
+> 파일 : define-type/assertion.ts
 
 ## 📝 type alias
 
-> 파일 : type-alias.ts
+> 파일 : type-alias/type-alias.ts
 
 - 타입이 너무 길 때, 타입을 변수에 담아둘 수 있다
 
 ## 📝 literal type
 
-> 파일 : literal-type.ts
+> 파일 : types/literal-type.ts
 
 - `literal type` : 엄격한 타입 지정 가능
   - ex) 이런 문자만 들어올 수 있습니다 가능!
@@ -82,7 +82,7 @@
 
 ## 📝 methods type alias
 
-> 파일 : methods-type-alias.ts
+> 파일 : type-alias/methods-type-alias.ts
 
 **type alias에 함수 type 저장해서 쓰는 법**<br>
 

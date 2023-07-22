@@ -1,1 +1,0 @@
-changeName: () => void ;
