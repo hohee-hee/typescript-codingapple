@@ -106,3 +106,7 @@ type FuncType = (a: string) => number;
 - `HTMLAnchorElement` `HTMLHeadingElement` `HTMLButtonElement` 등등 : 각 태그를 desc 하기 위해 사용
 - 따라서 Element안에는 크게 든게 없다.
   - ex) Anchor : href, style, class 등등 object 타입이 잘 정의되어 있음.
+
+## 📝 ts에서 class 문법 사용하기
+
+> 파일 : types/class.ts
