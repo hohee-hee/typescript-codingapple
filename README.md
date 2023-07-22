@@ -34,7 +34,7 @@
 
 ## 📝 TypeScript 문법 정리
 
-> 파일 : index.ts
+> 파일 : [index.ts](index.ts)
 
 - 변수에 타입 지정 가능 === 변수에 실드를 씌우는 것.
   - 장점 : 타입이 실수로 변경되면 에러로 알려준다.
@@ -42,11 +42,11 @@
 
 ## 📝 TS 기본 타입 정리
 
-> 파일 : types/primitive-type.ts
+> 파일 : [types/primitive-type.ts](types/primitive-type.ts)
 
 ## 📝 타입을 미리 정하기 애매할 때
 
-> 파일 : types/ambiguous.ts
+> 파일 : [types/ambiguous.ts](types/ambiguous.ts)
 
 1. union type
 2. any
@@ -54,22 +54,22 @@
 
 ## 📝 함수에 타입 지정하기
 
-> 파일 : types/function-type.ts
+> 파일 : [types/function-type.ts](types/function-type.ts)
 
 ## 📝 Narrowing, Assertion
 
-> 파일 : define-type/narrowing.ts
-> 파일 : define-type/assertion.ts
+> 파일 : [define-type/narrowing.ts](define-type/narrowing.ts)<br>
+> 파일 : [define-type/assertion.ts](define-type/assertion.ts)
 
 ## 📝 type alias
 
-> 파일 : type-alias/type-alias.ts
+> 파일 : [type-alias/type-alias.ts](type-alias/type-alias.ts)
 
 - 타입이 너무 길 때, 타입을 변수에 담아둘 수 있다
 
 ## 📝 literal type
 
-> 파일 : types/literal-type.ts
+> 파일 : [types/literal-type.ts](types/literal-type.ts)
 
 - `literal type` : 엄격한 타입 지정 가능
   - ex) 이런 문자만 들어올 수 있습니다 가능!
@@ -82,7 +82,7 @@
 
 ## 📝 methods type alias
 
-> 파일 : type-alias/methods-type-alias.ts
+> 파일 : [type-alias/methods-type-alias.ts](type-alias/methods-type-alias.ts)
 
 **type alias에 함수 type 저장해서 쓰는 법**<br>
 
@@ -99,7 +99,7 @@ type FuncType = (a: string) => number;
 
 ## 📝 ts로 HTML 변경 및 조작 시 주의점
 
-> 파일 : HTML/index.ts
+> 파일 : [HTML/index.ts](HTML/index.ts)
 
 **img, button 등 특정 태그 선택 시 타입 지정 방법**
 
@@ -109,13 +109,13 @@ type FuncType = (a: string) => number;
 
 ## 📝 ts에서 class 문법 사용하기
 
-> 파일 : types/class.ts
+> 파일 : [types/class.ts](types/class.ts)
 
 ## 📝 ts에서 interface 문법 사용하기
 
-> 파일 : types/interface.ts
+> 파일 : [types/interface.ts](types/interface.ts)
 
-** object 자료형은 type지정을 interface로 할 수 있다**
+**object 자료형은 type지정을 interface로 할 수 있다**
 
 - interface 장점
   - extends로 복사 가능
@@ -123,7 +123,7 @@ type FuncType = (a: string) => number;
 
 ## 📝 rest parameter에서 type 지정하기
 
-> 파일 : types/rest.ts
-> 파일 : types/destructuring.ts
+> 파일 : [types/rest.ts](types/rest.ts)<br>
+> 파일 : [types/destructuring.ts](types/destructuring.ts)
 
 - rest parameter 사용 시 type은 array로 지정하기
